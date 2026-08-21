@@ -1,0 +1,95 @@
+.title {
+    background-color: gold;
+    font-size: 24px;
+    color: gainsboro;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-holder img{
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 350px;
+}
+
+.dropdown {
+    width: 60%;
+    margin: auto;
+    display: block;
+    background-color: cyan;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.confirmBtn {    
+    margin: auto;
+    display: block;
+}
+
+.prevBtn, .nextBtn {
+    margin: auto;
+    width: 49.5%;
+    height: 30px;
+    background-color:yellow;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+table {
+    width: 80%;
+    background-color: lightpink;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+
+.table-header {
+    background-color: deeppink;
+    color: rgb(229, 187, 222);
+}
+
+
+.logo img{
+    width: 100px;
+}
+
+nav {
+    background-color: deepskyblue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;    
+}
+
+.links a {
+    color: khaki;
+    font-size: 20px;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: white;
+}
